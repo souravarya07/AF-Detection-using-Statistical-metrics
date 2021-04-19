@@ -1,9 +1,3 @@
-%Statistical AF Detection Algorithm
-%Term Project
-%Turning Point Ratio Function
-%EECE 5664
-%Noah Goldstein, Dan Song, Dan Thompson
- 
 function [u_tp_expected, u_tp_actual, sigma_tp_expected, sigma_tp_real] = turningPointRatio (qrs_signal)
 	%Initialize vector for turning points
 	qrs_length = 128
